@@ -1,10 +1,16 @@
 @use "../variables"
+@use "../mixins"
 
 #portfolio
     display: flex
     flex-wrap: wrap
     padding: 3rem
     gap: 3rem
+
+    @include mixins.tablet
+        padding: 1rem
+        flex-wrap: nowrap
+        flex-direction: column
 
     h1
         width: 100%
@@ -13,3 +19,6 @@
         background: variables.$gradient
         -webkit-background-clip: text
         -webkit-text-fill-color: transparent
+
+        @include mixins.mobile
+            font-size: 3rem

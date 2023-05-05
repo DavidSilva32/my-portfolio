@@ -7,6 +7,10 @@
     border-radius: variables.$container-border-radius
     padding: 3rem
 
+    @include mixins.mobile
+        min-width: 270px
+        padding: 1rem
+
     section
         display: flex
         flex-direction: column

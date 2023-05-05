@@ -12,6 +12,9 @@
     position: relative
     padding: 3rem 0
 
+    @include mixins.mobile
+        min-width: 270px
+
     img
         max-width: 70%
         border-radius: variables.$card-border-radius
