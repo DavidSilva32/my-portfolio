@@ -11,6 +11,7 @@
     text-align: center
     position: relative
     padding: 3rem 0
+    min-width: 300px
 
     @include mixins.mobile
         min-width: 270px
@@ -20,6 +21,13 @@
         border-radius: variables.$card-border-radius
         position: absolute
         top: -3rem
+
+        @include mixins.tablet
+            max-width: 250px
+            width: 40%
+
+        @include mixins.mobile
+            max-width: 200px   
 
     .title
         color: variables.$text-color-secondary

@@ -23,6 +23,7 @@
 
             @include mixins.tablet
                 flex-direction: column
+                text-align: center
 
             @include mixins.mobile 
                 width: 80%   
@@ -35,7 +36,11 @@
                     color: #000
 
             svg
-                font-size: 6rem
+                font-size: 12rem
+                min-width: 50px
+
+                @include mixins.tablet
+                    font-size: 5rem
 
             h3
                 color: variables.$text-color
