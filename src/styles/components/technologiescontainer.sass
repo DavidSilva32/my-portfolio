@@ -5,10 +5,8 @@
     margin-bottom: 1rem
 
     &-grid
-        display: flex
-        flex-wrap: wrap
-        gap: 1.5rem
-
+        @include mixins.flex-wrap
+        
         @include mixins.mobile
             @include mixins.center
 

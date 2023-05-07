@@ -19,9 +19,16 @@
         background: variables.$gradient
         -webkit-background-clip: text
         -webkit-text-fill-color: transparent
+        animation: flipTitle 2s
 
         @include mixins.tablet
             text-align: center
 
         @include mixins.mobile
             font-size: 3rem
+
+    @keyframes flipTitle
+        from
+            transform: rotateX(90deg)
+        to
+            trnsform: rotateX(0deg)

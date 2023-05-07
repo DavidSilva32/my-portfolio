@@ -18,63 +18,63 @@ const technologies = [
     id: "html",
     name: "HTML5",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dolores harum libero.",
+      "HTML5 is a markup language for the World Wide Web and is a key Internet technology, originally proposed by Opera Software.",
     icon: <DiHtml5 />,
   },
   {
     id: "css",
     name: "CSS3",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dolores harum libero.",
+      "CSS3 is the third newest version of the famous Cascading Style Sheets, by which styles are defined for a web project.",
     icon: <DiCss3 />,
   },
   {
     id: "js",
     name: "JavaScript",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dolores harum libero.",
+      "JavaScript is a structured, high-level scripting, dynamically typed, multiparadigm, interpreted programming language.",
     icon: <DiJsBadge />,
   },
   {
     id: "sass",
     name: "Sass",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dolores harum libero.",
+      "Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets.",
     icon: <DiSass />,
   },
   {
     id: "bootstrap",
     name: "Bootstrap",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dolores harum libero.",
+      "Bootstrap is an open-source web framework for developing interface and front-end components for websites and web applications.",
     icon: <DiBootstrap />,
   },
   {
     id: "react",
     name: "React",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dolores harum.",
+      "React is an open source JavaScript front-end library focused on creating user interfaces on web pages.",
     icon: <DiReact />,
   },
   {
     id: "node",
     name: "Node.js",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dolores harum.",
+      "Node.js is open-source, cross-platform software based on Google's V8 interpreter that allows you to run JavaScript code outside of a web browser.",
     icon: <DiNodejsSmall />,
   },
   {
     id: "mongodb",
     name: "MongoDb",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dolores harum.",
+      "MongoDB is a free, open source, cross-platform document-oriented database software.",
     icon: <DiMongodb />,
   },
   {
     id: "postman",
     name: "Postman",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dolores harum.",
+      "Postman is an API platform for developers to design, build, test and iterate their APIs.",
     icon: <SiPostman />,
   },
 ];
