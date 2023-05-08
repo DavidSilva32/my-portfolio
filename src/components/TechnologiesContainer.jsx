@@ -9,7 +9,7 @@ import {
   DiBootstrap,
 } from "react-icons/di";
 
-import {SiPostman} from "react-icons/si";
+import { SiPostman, SiExpress } from "react-icons/si";
 
 import "../styles/components/technologiescontainer.sass";
 
@@ -62,6 +62,13 @@ const technologies = [
     description:
       "Node.js is open-source, cross-platform software based on Google's V8 interpreter that allows you to run JavaScript code outside of a web browser.",
     icon: <DiNodejsSmall />,
+  },
+  {
+    id: "express",
+    name: "Express.js",
+    description:
+      "Express.js is a framework for Node.js that provides minimal resources for building web servers.",
+    icon: <SiExpress />,
   },
   {
     id: "mongodb",
