@@ -1,11 +1,13 @@
 import "../styles/components/projectscontainer.sass";
-import imgcep from "../img/gallery.jpg"
+import imgcep from "../img/cep-finder.jpg";
+import imggallery from "../img/gallery.jpg";
+import imglist from "../img/to-do-list.jpg";
 
 const projects = [
   {
     id: "cep-finder",
     name: "Cep Finder",
-    img: "../src/img/cep-finder.jpg",
+    img: imgcep,
     description: "A project builded with React.js, API and Sass.",
     live: "https://cep-finder-delta.vercel.app/",
     code: "https://github.com/DavidSilva32/cep-finder",
@@ -13,7 +15,7 @@ const projects = [
   {
     id: "gallery",
     name: "Gallery",
-    img: imgcep,
+    img: imggallery,
     description: "My first project using the Technology Sass. The gallery.",
     live: "https://davidsilva32.github.io/sass/index.html",
     code: "https://github.com/DavidSilva32/sass",
@@ -21,8 +23,9 @@ const projects = [
   {
     id: "to-do-list",
     name: "To-do List",
-    img: "../src/img/to-do-list.jpg",
-    description: "In this project i used API end React.js, to make a To-do list.",
+    img: imglist,
+    description:
+      "In this project i used API end React.js, to make a To-do list.",
     live: "https://to-do-list-lac-theta.vercel.app/",
     code: "https://github.com/DavidSilva32/curso-react",
   },
