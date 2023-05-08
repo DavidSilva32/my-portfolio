@@ -1,4 +1,5 @@
 import "../styles/components/projectscontainer.sass";
+import imgcep from "../img/gallery.jpg"
 
 const projects = [
   {
@@ -12,7 +13,7 @@ const projects = [
   {
     id: "gallery",
     name: "Gallery",
-    img: "./src/img/gallery.jpg",
+    img: imgcep,
     description: "My first project using the Technology Sass. The gallery.",
     live: "https://davidsilva32.github.io/sass/index.html",
     code: "https://github.com/DavidSilva32/sass",
