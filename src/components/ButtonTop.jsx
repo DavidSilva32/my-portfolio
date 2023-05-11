@@ -10,7 +10,7 @@ const ButtonTop = () => {
 
   return (
     <a href="#portfolio" target="_top" id="btnTop">
-      {pageYPosition > 900 && <BsArrowUpCircle />}
+      {pageYPosition > 901 && <BsArrowUpCircle />}
     </a>
   );
 };
