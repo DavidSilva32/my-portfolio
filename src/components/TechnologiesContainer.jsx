@@ -1,3 +1,7 @@
+import ButtonTop from "./ButtonTop";
+
+import { SiPostman, SiExpress } from "react-icons/si";
+
 import {
   DiHtml5,
   DiCss3,
@@ -8,8 +12,6 @@ import {
   DiMongodb,
   DiBootstrap,
 } from "react-icons/di";
-
-import { SiPostman, SiExpress } from "react-icons/si";
 
 import "../styles/components/technologiescontainer.sass";
 
@@ -90,6 +92,7 @@ const TechnologiesContainer = () => {
   return (
     <section className="technologies-container">
       <h2>Technologies</h2>
+      <ButtonTop />
       <div className="technologies-container-grid">
         {technologies.map((tech) => (
           <div className="technology-card" id={tech.id} key={tech.id}>

@@ -1,0 +1,25 @@
+@use "../variables"
+@use "../mixins"
+    
+#btnTop
+    @include mixins.center
+    position: fixed
+    bottom: 50px
+    right: 5px
+    font-size: 2.5rem
+    cursor: pointer
+    background: variables.$gradient
+    color: #fff
+    border-radius: 50%
+    transition: .2s
+
+    @include mixins.tablet
+        right: 20px
+
+    @include mixins.mobile
+        bottom: 37px
+        right: 5px
+
+    &:hover
+        color: #000
+        background: none
